@@ -1,0 +1,41 @@
+@import '../config/variables';
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+
+    &--styled {
+        background-color: transparent;
+        border: 1px solid $primary-color;
+
+        &:hover {
+            border: 1px solid $primary-color;
+            background-color: $primary-color;
+            color: $white;
+            text-decoration: none;
+        }
+
+        &--reversed {
+            background-color: $primary-color;
+            color: $white;
+
+            &:hover {
+                background-color: transparent;
+                color: $primary-color;
+            }
+        }
+    }
+}
+
+.btn-lg {
+
+    &--styled {
+
+    }
+}
+
+.btn-sm {
+
+    &--styled {
+
+    }
+}

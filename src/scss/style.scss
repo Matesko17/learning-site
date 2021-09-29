@@ -1,5 +1,7 @@
 // PLUGINS
 @import "../../node_modules/bootstrap-4-grid/scss/grid/bootstrap-grid.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
 
 // slick
 // $slick-font-path: "../fonts/" !default;
@@ -32,3 +34,20 @@
 @import "config/variables";
 
 @import "base";
+
+
+// bt5 customize
+@import 'custom';
+
+// import components 
+@import 'components/headings.scss';
+@import "components/buttons";
+@import "components/paragraphs.scss";
+
+@import 'components/carousel.scss';
+
+// import sections 
+@import 'sections/hero.scss';
+@import 'sections/navbar.scss';
+@import 'sections/newsletter.scss';
+@import 'sections/companies.scss';

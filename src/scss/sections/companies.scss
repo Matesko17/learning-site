@@ -1,0 +1,19 @@
+.companies {
+
+    &__logo-box {
+        height: 3rem;
+        text-align: center;
+        padding: 0.5rem;
+
+        img {
+            height: 100%;
+        }
+
+        &:hover {
+
+            img {
+                filter: grayscale(120);
+            }
+        }
+    }
+}
