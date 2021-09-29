@@ -1,0 +1,17 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
